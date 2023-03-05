@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Hero from '@/components/Hero'
+import AboutMe from '@/components/aboutme'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -17,6 +18,7 @@ export default function Home() {
        
       </Head>
       <Hero heading='Software Developer' message='Welcome to my portfolio website showcasing my skills, projects, and passion for software development.'/>
+      <AboutMe/>
     </div>
   )
 }

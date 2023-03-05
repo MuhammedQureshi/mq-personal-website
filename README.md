@@ -1,38 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Muhammed Qureshi Portfolio Site
 
-## Getting Started
+This repository contains the code for my personal portfolio website. The website serves as an online showcase of my projects and services.
 
-First, run the development server:
+## Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The website is built using the following technologies:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Next.js](https://nextjs.org/) - A React-based framework for building server-side rendered applications.
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom user interfaces.
+- [GitHub API](https://docs.github.com/en/rest) - Used to retrieve information about my GitHub projects.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Features
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+The website includes the following features:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- **Home page** - A brief introduction to me and my work.
+- **Projects page** - A list of my GitHub projects, with links to the repositories and descriptions of each project.
+- **Services page** - An overview of the development services I offer.
+- **Contact page** - A contact form for visitors to get in touch with me.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation and Setup
 
-## Learn More
+To install and run the website locally, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository: 
+`cd portfolio-site`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Install dependencies:
+`npm install`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Create a `.env.local` file and add the following environment variables:
+`GITHUB_API_TOKEN=YOUR_GITHUB_API_TOKEN`
 
-## Deploy on Vercel
+Replace `YOUR_GITHUB_API_TOKEN` with your personal access token for the GitHub API. You can learn more about creating a personal access token [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Start the development server:
+`npm run dev`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+5. Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to view the website.
+
+## Contributions
+
+Contributions to the project are welcome. If you find a bug or have a feature request, please create an issue in the repository. If you would like to contribute code, please create a pull request with your changes.
+
+## Contact
+
+If you have any questions about the project or would like to get in touch with me, please feel free to send me an email.
+
+## Thank you for checking out my portfolio site!
+
+
+
+

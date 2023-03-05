@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-   <div className="w-full md:h-screen p-2 flex items-center py-16   ">
+   <div id='about' className="w-full md:h-screen p-2 flex items-center py-16   ">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className= "col-span-2">
             <p className="uppercase text-xl tracking-widest text-[#071ff2]">About</p>
@@ -20,8 +20,8 @@ const AboutMe = () => {
           When I'm not coding, you can find me reading, playing football, or working out at the gym.
         </p>
         </div>
-        <div className="w-full h-auto m-auto shadow-xl shawdow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in  ">
-            <img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="/" />
+        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 ">
+            <img className="rounded-xl"  src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="/" />
         </div>
       </div>
    </div>

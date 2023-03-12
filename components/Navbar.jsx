@@ -6,6 +6,7 @@ const Navbar = () => {
     const [nav, setNav] = useState(false);
     const [color, setColor] = useState('transparent')
     const [textColor, setTextColor] = useState('white')
+    const [boxShadow, setBoxShadow] = useState('white')
 
     const handleNav = () => {
         setNav(!nav);
@@ -16,9 +17,12 @@ const Navbar = () => {
             if(window.scrollY >= 90){
                 setColor('#ffffff')
                 setTextColor('#000000')
+                setBoxShadow('0 1px 3px rgba(0,0,0,0.3)')
             } else {
                 setColor('transparent')
                 setTextColor('#ffffff')
+                setBoxShadow('none')
+                
             }
         }
         window.addEventListener('scroll', changeColor);
@@ -28,7 +32,7 @@ const Navbar = () => {
 
 
   return (
-    <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
+    <div style={{backgroundColor: `${color}`, boxShadow: `${boxShadow}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
         <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
             <link href='/'></link>
             <h1 style={{color: `${textColor}`}} className='font-bold text-4xl'>MQ</h1>
